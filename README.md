@@ -1,5 +1,5 @@
 # Invoice-Generation
-# Invoice Generator
+
 
 ## Description
 A React-based invoice generator application that allows users to create, edit, and print invoices. The application supports adding multiple items, calculating taxes, discounts, and generating a PDF of the invoice.
