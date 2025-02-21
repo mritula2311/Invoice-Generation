@@ -45,15 +45,14 @@ const InvoiceModal = ({ showModal, closeModal, info, items, currency }) => {
             <p>Due Date :{info.dueDate}</p>
             </Col>
             <Col>
-            <h4 className="fw-bold">{info.billFrom.name || 'BILL From'}</h4>
+            <h4 className="fw-bold">{info.billFrom.name || 'BILL FROM'}</h4>
             <p>{info.billFrom.phone}</p>
             <p>{info.billFrom.email}</p>
             <p>{info.billFrom.address}</p>
 
             </Col>
             <Col>
-            {/* <h4 className="fw-bold">Invoice # {info.invoiceNumber}</h4> */}
-              <h4 className="fw-bold">{info.billTo.name || 'BILLED To'}</h4>
+              <h4 className="fw-bold">{info.billTo.name || 'BILLED TO'}</h4>
               <p>{info.billTo.phone}</p>
               <p>{info.billTo.email}</p>
               <p>{info.billTo.address}</p>
