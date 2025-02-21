@@ -44,20 +44,6 @@ Ensure you have the following installed on your system:
 4. View real-time calculation of totals.
 5. Print or save the invoice as a PDF.
 
-## Folder Structure
-```
-root-directory/
-│-- src/
-│   │-- components/
-│   │   ├── InvoiceForm.js
-│   │   ├── InvoiceItem.js
-│   │   ├── InvoiceModal.js
-│   │-- App.js
-│   │-- index.js
-│-- public/
-│-- package.json
-│-- README.md
-```
 
 ## License
 This project is licensed under the MIT License.
