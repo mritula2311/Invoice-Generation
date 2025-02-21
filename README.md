@@ -32,6 +32,7 @@ Ensure you have the following installed on your system:
 
 3. Start the development server:
    ```bash
+   export NODE_OPTIONS=--openssl-legacy-provider
    npm start
    ```
    This will launch the application at `http://localhost:3000/`.
